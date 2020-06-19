@@ -25,6 +25,7 @@ tokenizer = ReformerTokenizer(vocab_file="sequence_tokenizer.model", do_lower_ca
 # configuration.max_position_embeddings=SEQ_LEN
 # configuration.vocab_size=tokenizer.vocab_size
 # configuration.save_pretrained('model/config/')
+
 configuration = ReformerConfig.from_pretrained('model/config/')
 model = ReformerModelWithLMHead(configuration)
 
