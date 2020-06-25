@@ -2,7 +2,7 @@
 #SBATCH --gres=gpu:t4:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32000M
-#SBATCH --time=0-03:00
+#SBATCH --time=0-00:10
 #SBATCH --output=%N-%j.out
 
 module load python/3.7

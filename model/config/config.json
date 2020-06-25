@@ -19,8 +19,8 @@
     192
   ],
   "axial_pos_shape": [
-    128,
-    192
+    64,
+    72
   ],
   "chunk_size_feed_forward": 0,
   "chunk_size_lm_head": 0,
@@ -42,7 +42,7 @@
   "lsh_attn_chunk_length": 64,
   "lsh_num_chunks_after": 0,
   "lsh_num_chunks_before": 1,
-  "max_position_embeddings": 24576,
+  "max_position_embeddings": 4608,
   "model_type": "reformer",
   "num_attention_heads": 2,
   "num_buckets": [
